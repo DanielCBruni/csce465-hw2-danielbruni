@@ -31,5 +31,5 @@ This was downloaded using the instructions from the homework file as follows:
     - openssl dhparam -in ffdhe3072.pem -text -noout | head -3
    
 # Testing / Automated Tests
-During task 4, test cases needed to be curated within the tests/ directory at the file test_security.py. Because the scripts were written in a Python file, they can be executed simply with the following command:
-  - python3 tests/test_security.py
+During task 4, test cases needed to be curated within the tests/ directory at the file test_security.py. These test cases use pytest to run, and thus, executing the following command in either the hw2 directory or the hw2/tests/ directory will compile the tests and run them.
+  - pytest -v
